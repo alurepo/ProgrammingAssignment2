@@ -3,7 +3,7 @@
 ## for the first time. Second and later calls will return cached inverse.
 
 
-## Initilized "special" matrix object 
+## Initilizes the "special" matrix object 
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Calculates inverse or return chached one if avaliable
+## Calculates inverse or returns chached one if avaliable
 
 cacheSolve <- function(x, ...) {
         
